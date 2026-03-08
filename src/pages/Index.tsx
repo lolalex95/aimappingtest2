@@ -10,6 +10,7 @@ import FAQ from "@/components/landing/FAQ";
 import FinalCTA from "@/components/landing/FinalCTA";
 import ContactSection from "@/components/landing/ContactSection";
 import Footer from "@/components/landing/Footer";
+import { ScrollToTop } from "@/components/ui/ScrollToTop";
 
 const Index = () => (
   <>
@@ -27,7 +28,9 @@ const Index = () => (
       <ContactSection />
     </main>
     <Footer />
+    <ScrollToTop />
   </>
 );
+
 
 export default Index;
